@@ -1,0 +1,8 @@
+user_input = input('Enter:')
+nam = int(user_input)
+nam, d5 = divmod(nam, 10)
+nam, d4 = divmod(nam, 10)
+nam, d3 = divmod(nam, 10)
+d1, d2 = divmod(nam, 10)
+nam_result = (d5*10000) + (d4*1000) + (d3*100) + (d2*10) + (d1*1)
+print(nam_result)
